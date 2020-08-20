@@ -1,7 +1,12 @@
+body {
+  background-color: white;
+  height: 200vh;
+}
 .nav-bar {
   width: 100%;
   border-bottom: 1px solid gray;
   height: 4.5vh;
+  position: fixed;
 }
 .d_flex {
   display: flex;
@@ -18,4 +23,37 @@
   color: black;
   font-weight: bold;
   font-size: large;
+}
+
+.logo {
+  width: 60%;
+  height: 80%;
+  align-content: flex-start;
+  margin-left: 20%;
+}
+
+.last_content {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  column-gap: 6px;
+}
+
+.subs_butn {
+  background-color: #326891;
+  color: white;
+  border-radius: 3px;
+  padding: 4px;
+  border: none;
+  width: 122px;
+  height: 28px;
+  align-content: center;
+}
+
+.accnt_btn {
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  padding: 8px;
+  border: none;
 }
