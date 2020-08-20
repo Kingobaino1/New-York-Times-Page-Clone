@@ -1,0 +1,21 @@
+.nav-bar {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  height: 4.5vh;
+}
+.d_flex {
+  display: flex;
+}
+.nav_content {
+  width: 33.3%;
+  display: flex;
+}
+.icons {
+  margin-left: 6%;
+}
+.no_line {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
