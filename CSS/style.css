@@ -5,7 +5,7 @@
 
 body {
   background-color: white;
-  height: 200vh;
+  height: 800vh;
 }
 .nav-bar {
   width: 100%;
@@ -152,4 +152,188 @@ body {
 
 .social button {
   height: 33%;
+}
+
+.Big_conatiner {
+  width: 100%;
+  height: 330vh;
+  margin-top: 60px;
+}
+
+.paragraph_container {
+  width: 70%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: flex-end;
+}
+
+aside {
+  width: 30%;
+  height: 70%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph {
+  width: 57%;
+  margin-right: 30px;
+  font-size: x-large;
+  height: 200vh;
+}
+
+.paragraph p {
+  margin-top: 10px;
+}
+
+.link_blue {
+  color: blue;
+}
+
+.hr {
+  width: 60px;
+  position: relative;
+  left: 44%;
+  margin: 20px 0;
+  background-color: gray;
+  height: 0.01em;
+}
+
+.thanks {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.6em;
+}
+
+.thanks a {
+  color: blue;
+  font-size: 1em;
+}
+
+.aside_inside_conatiner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  top: 43%;
+  font-weight: bold;
+}
+
+.aside_inside_conatiner hr {
+  position: relative;
+  left: 0;
+  width: 80%;
+}
+
+.aside_content {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.sidebar_images {
+  width: 90%;
+  height: 100px;
+}
+
+.firstdiv {
+  width: 50%;
+}
+
+h4 {
+  margin-top: 70px;
+}
+
+.bigPicture {
+  display: flex;
+  height: fit-content;
+  max-width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.image_container {
+  width: 50%;
+  height: 80vh;
+}
+
+.image_container img {
+  width: 100%;
+  height: 100%;
+}
+
+.text_picture {
+  width: 23%;
+  height: 80px;
+  font-size: 0.8em;
+}
+
+.inline {
+  display: flex;
+  column-gap: 15px;
+  position: relative;
+  bottom: 420px;
+}
+
+.text_picture span {
+  font-weight: bold;
+}
+
+.inline2 {
+  display: flex;
+  column-gap: 15px;
+  position: relative;
+  bottom: 230px;
+}
+
+.big_pic_heading {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 10px;
+}
+
+.bolder {
+  font-weight: bold;
+  font-size: large;
+}
+
+.hr_pic_end {
+  width: 70px;
+  position: relative;
+  left: 25%;
+  margin: 20px 0;
+  background-color: black;
+  color: black;
+  height: 0.1em;
+}
+
+.txt_bel_big_pic {
+  position: relative;
+  left: 25%;
+}
+
+.lateParas {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 40%;
+  margin-left: 28%;
+  font-size: x-large;
+}
+
+.lateParas p {
+  margin-top: 10px;
+}
+
+.vid_sec {
+  margin-top: 40px;
+  width: 100%;
+  height: 400px;
+}
+
+.yt_video {
+  width: 100%;
+  height: 80%;
 }
