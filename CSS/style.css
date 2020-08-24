@@ -70,7 +70,7 @@ body {
 .maintag {
   position: relative;
   top: 100px;
-  height: 1200vh;
+  height: 1100vh;
 }
 
 .heading {
@@ -386,19 +386,19 @@ aside {
 }
 
 .hr_1 {
-  width: 66%;
+  width: 65%;
   margin-left: 43px;
 }
 .hr_2 {
   width: 30%;
-  margin-left: 40px;
+  margin-left: 140px;
 }
 
 .grid_flex_container {
   display: flex;
   width: 94%;
- column-gap: 5%;
- margin: 10px auto;
+  column-gap: 2%;
+  margin: 10px auto;
 }
 
 .grid_container {
@@ -413,48 +413,127 @@ aside {
   margin-top: 20px;
   width: 95%;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-   grid-template-columns: 1fr 1fr 1fr;
-   column-gap: 20px;
-   row-gap: 10px;
-   grid-template-areas: "box1 box2 box3"
-                        "box4 box5 box6"
-                         "box7 box8 box9";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  grid-template-areas:
+    "box1 box2 box3"
+    "box4 box5 box6";
+  margin-bottom: 20px;
 }
 
-.grid-area img{
+.grid-area2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 20px;
+  width: 95%;
+  grid-template-areas: "box7 box8 box9";
+  margin-top: 10px;
+}
+
+.grid-area img {
   height: 50%;
   width: 100%;
 }
+
+.grid-area2 img {
+  height: 50%;
+  width: 100%;
+}
+
 .one {
-  grid-area: box1
+  grid-area: box1;
 }
 .two {
-  grid-area: box2
+  grid-area: box2;
 }
 .three {
-  grid-area: box3
+  grid-area: box3;
 }
 .four {
-  grid-area: box4
+  grid-area: box4;
 }
 .five {
-  grid-area: box5
+  grid-area: box5;
 }
 .six {
-  grid-area: box6
+  grid-area: box6;
 }
-.seven {
-  grid-area: box7
+.sec_one {
+  grid-area: box7;
 }
-.eight {
-  grid-area: box8
+.sec_two {
+  grid-area: box8;
 }
-.nine {
-  grid-area: box9
+.sec_three {
+  grid-area: box9;
 }
 
 .aside_links {
   width: 90%;
   margin-top: 20px;
+}
+
+.text {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.6rem;
+}
+
+.sml {
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.grid-area a {
+  color: black;
+  text-decoration: none;
+}
+
+.grid-area2 a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  width: 70%;
+  margin: 300px auto;
+}
+
+.fot_heading {
+  display: flex;
+  justify-content: space-between;
+  height: 6vh;
+}
+
+.fot_img {
+  height: 100%;
+  width: 70%;
+}
+
+.home_page {
+  align-self: flex-end;
+  font-size: 0.7rem;
+}
+
+.footer hr {
+  color: gray;
+  background-color: #293136;
+}
+
+.foot_grid {
+  margin-top: 7px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.no_dec {
+  font-size: smaller;
+  color: #293136;
+  text-decoration: none;
+}
+.foot_grid p {
+  margin-bottom: 9px;
 }
