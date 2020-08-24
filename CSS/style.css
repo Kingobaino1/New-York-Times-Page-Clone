@@ -382,14 +382,79 @@ aside {
 .two_hr {
   display: flex;
   width: 90%;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .hr_1 {
-  width: 60%;
+  width: 66%;
+  margin-left: 43px;
 }
 .hr_2 {
   width: 30%;
   margin-left: 40px;
+}
 
+.grid_flex_container {
+  display: flex;
+  width: 94%;
+ column-gap: 5%;
+ margin: 10px auto;
+}
+
+.grid_container {
+  width: 65%;
+}
+
+.grid_aside_container {
+  width: 30%;
+}
+
+.grid-area {
+  margin-top: 20px;
+  width: 95%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 20px;
+   row-gap: 10px;
+   grid-template-areas: "box1 box2 box3"
+                        "box4 box5 box6"
+                         "box7 box8 box9";
+}
+
+.grid-area img{
+  height: 50%;
+  width: 100%;
+}
+.one {
+  grid-area: box1
+}
+.two {
+  grid-area: box2
+}
+.three {
+  grid-area: box3
+}
+.four {
+  grid-area: box4
+}
+.five {
+  grid-area: box5
+}
+.six {
+  grid-area: box6
+}
+.seven {
+  grid-area: box7
+}
+.eight {
+  grid-area: box8
+}
+.nine {
+  grid-area: box9
+}
+
+.aside_links {
+  width: 90%;
+  margin-top: 20px;
 }
