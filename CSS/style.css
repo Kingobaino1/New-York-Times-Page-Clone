@@ -5,7 +5,7 @@
 
 body {
   background-color: white;
-  height: 1000vh;
+  height: 1200vh;
   max-width: 100%;
 }
 .nav-bar {
@@ -70,7 +70,7 @@ body {
 .maintag {
   position: relative;
   top: 100px;
-  height: 1000vh;
+  height: 1200vh;
 }
 
 .heading {
@@ -362,6 +362,7 @@ aside {
   margin-top: 15px;
   display: flex;
   column-gap: 10%;
+  justify-content: space-between;
 }
 
 .firstdiv button {
@@ -372,5 +373,23 @@ aside {
 .icons2 {
   width: 40%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.hr_container {
+  margin-top: 70px;
+}
+.two_hr {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+
+.hr_1 {
+  width: 60%;
+}
+.hr_2 {
+  width: 30%;
+  margin-left: 40px;
+
 }
