@@ -4,9 +4,10 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   min-height: 100%;
 }
+
 .nav-bar {
   width: 100%;
   border-bottom: 1px solid gray;
@@ -15,17 +16,21 @@ body {
   z-index: 1;
   background-color: white;
 }
+
 .d_flex {
   display: flex;
 }
+
 .nav_content {
   width: 33.3%;
   display: flex;
 }
+
 .icons {
   margin-left: 6%;
   align-self: center;
 }
+
 .no_line {
   text-decoration: none;
   color: black;
@@ -380,6 +385,7 @@ aside {
 .hr_container {
   margin-top: 70px;
 }
+
 .two_hr {
   display: flex;
   width: 90%;
@@ -451,27 +457,35 @@ aside {
 .one {
   grid-area: box1;
 }
+
 .two {
   grid-area: box2;
 }
+
 .three {
   grid-area: box3;
 }
+
 .four {
   grid-area: box4;
 }
+
 .five {
   grid-area: box5;
 }
+
 .six {
   grid-area: box6;
 }
+
 .sec_one {
   grid-area: box7;
 }
+
 .sec_two {
   grid-area: box8;
 }
+
 .sec_three {
   grid-area: box9;
 }
@@ -539,6 +553,7 @@ aside {
   color: #293136;
   text-decoration: none;
 }
+
 .foot_grid p {
   margin-bottom: 9px;
 }
