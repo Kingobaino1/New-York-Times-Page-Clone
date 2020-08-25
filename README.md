@@ -4,7 +4,7 @@
 
 Clone WebPage of New York Times
 
-![screenshot](./CSS/Images/ss.png)
+![screenshot](./Images/ss.png)
 
 tried to clone the webpage of New York times.
 
