@@ -15,7 +15,7 @@ tried to clone the webpage of New York times.
 
 ## Live Demo
 
-[Live Demo Link](https://hamayun-cpu.github.io/HtmlForm/)
+[Live Demo Link](https://kingobaino1.github.io/New-York-Times-Page-Clone/)
 
 👤 **KingsLey**
 
