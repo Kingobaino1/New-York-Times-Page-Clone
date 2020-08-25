@@ -4,9 +4,9 @@
 
 Clone WebPage of New York Times
 
-![screenshot](.CSS/Images/ss.png)
+![screenshot](CSS\Images\ss.png)
 
-Additional description about the project and its features.
+tried to clone the webpage of New York times.
 
 ## Built With
 
