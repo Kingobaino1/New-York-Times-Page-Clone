@@ -32,10 +32,6 @@ body {
   background-color: white;
 }
 
-.blu_col {
-  background-color: #5cb8ff;
-}
-
 .res_txt {
   font-size: 0.6vw;
 }
@@ -98,6 +94,10 @@ body {
 
 .no_line {
   font-size: large;
+}
+
+.btn {
+  height: 52%;
 }
 
 .logo {
