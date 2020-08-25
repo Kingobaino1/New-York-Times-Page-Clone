@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# New Yor Times Clone
+# New York Times Page Clone
 
 Clone WebPage of New York Times
 
