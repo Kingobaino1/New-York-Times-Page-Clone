@@ -32,6 +32,18 @@ body {
   background-color: white;
 }
 
+.blu_col {
+  background-color: #5cb8ff;
+}
+
+.res_txt {
+  font-size: 0.6vw;
+}
+
+.res_txt_lar {
+  font-size: 0.8vw;
+}
+
 .d_flex {
   display: flex;
 }
@@ -263,7 +275,7 @@ body {
 
 .inline {
   column-gap: 15px;
-  bottom: 420px;
+  bottom: 410px;
 }
 
 .inline2 {
