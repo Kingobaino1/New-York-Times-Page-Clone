@@ -232,11 +232,8 @@ body {
   font-size: 1em;
 }
 
-.aside_inside_conatiner {
-  top: 600px;
-}
-
-.aside_inside_conatiner hr {
+.aside_hr {
+  margin: 8px 0;
   left: 0;
   width: 80%;
 }
