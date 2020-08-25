@@ -443,6 +443,10 @@ aside {
   width: 100%;
 }
 
+.hr_grid {
+  width: 95%;
+}
+
 .one {
   grid-area: box1;
 }
@@ -498,7 +502,7 @@ aside {
 }
 
 .footer {
-  width: 70%;
+  width: 75%;
   margin: 300px auto;
 }
 
@@ -536,4 +540,25 @@ aside {
 }
 .foot_grid p {
   margin-bottom: 9px;
+}
+
+.subscribe_border {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.grid_icons {
+  width: 100%;
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.grid_icons img {
+  width: 22px;
+  height: 20px;
+}
+
+.right_margin {
+    margin-right: 10px;
 }
