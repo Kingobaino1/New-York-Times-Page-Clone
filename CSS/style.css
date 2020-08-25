@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: white;
-  max-width: 100%;
+  background-color: #ffffff;
+  min-height: 100%;
 }
 .nav-bar {
   width: 100%;
@@ -503,7 +503,7 @@ aside {
 
 .footer {
   width: 75%;
-  margin: 300px auto;
+  margin: 200px auto 10px auto;
 }
 
 .fot_heading {
@@ -561,4 +561,29 @@ aside {
 
 .right_margin {
   margin-right: 10px;
+}
+
+#marg_bot {
+  margin-bottom: 16px;
+}
+
+.top_bot {
+  margin: 10px 0;
+  border: none;
+  height: 1px;
+  color: lightgray;
+  background-color: lightgray;
+}
+
+.fot_div {
+  width: 90%;
+  margin: 2px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.last_txt {
+  color: rgb(80, 69, 69);
+  font-size: 0.7rem;
+  text-decoration: none;
 }
