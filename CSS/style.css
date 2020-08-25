@@ -12,6 +12,10 @@ body {
   width: 100%;
 }
 
+.w_40 {
+  width: 40%;
+}
+
 .h_100 {
   height: 100%;
 }
@@ -32,6 +36,10 @@ body {
   display: flex;
 }
 
+.d_grid {
+  display: grid;
+}
+
 .pos_rel {
   position: relative;
 }
@@ -48,8 +56,24 @@ body {
   align-self: center;
 }
 
+.space_btw {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
 .flex_dir_col {
   flex-direction: column;
+}
+
+.no_border {
+  border: none;
 }
 
 .nav_content {
@@ -70,7 +94,6 @@ body {
 }
 
 .last_content {
-  justify-content: flex-end;
   column-gap: 6px;
 }
 
@@ -79,7 +102,6 @@ body {
   color: white;
   border-radius: 3px;
   padding: 4px;
-  border: none;
   width: 122px;
 }
 
@@ -87,7 +109,6 @@ body {
   background-color: white;
   border-radius: 3px;
   padding: 8px;
-  border: none;
 }
 
 .maintag {
@@ -113,10 +134,6 @@ body {
   width: 80%;
 }
 
-.picture_text {
-  justify-content: center;
-}
-
 .text_container {
   width: 80%;
   height: 20%;
@@ -128,7 +145,6 @@ body {
 
 .contact_container {
   margin-top: 40px;
-  width: 40%;
   height: 67px;
 }
 
@@ -144,16 +160,11 @@ body {
   width: 60%;
 }
 
-.social {
-  width: 40%;
-  justify-content: space-between;
-}
-
 .no_decoration {
   text-decoration: none;
 }
 
-.social button {
+.h_33 {
   height: 33%;
 }
 
@@ -170,7 +181,6 @@ body {
 .paragraph_container {
   width: 70%;
   float: left;
-  justify-content: flex-end;
   margin-bottom: 60px;
 }
 
@@ -202,7 +212,6 @@ body {
 }
 
 .thanks {
-  justify-content: center;
   font-size: 0.6em;
 }
 
@@ -225,7 +234,7 @@ body {
 }
 
 .sidebar_images {
-  width: 90%;
+  width: 91%;
   height: 100px;
 }
 
@@ -238,7 +247,6 @@ body {
 }
 
 .bigPicture {
-  justify-content: center;
   align-content: center;
 }
 
@@ -288,7 +296,6 @@ body {
 
 .lateParas {
   margin-top: 20px;
-  width: 40%;
   margin-left: 28%;
   font-size: x-large;
 }
@@ -327,7 +334,6 @@ body {
 .btn_icons {
   margin-top: 15px;
   column-gap: 10%;
-  justify-content: space-between;
 }
 
 .firstdiv button {
@@ -335,7 +341,6 @@ body {
 }
 
 .icons2 {
-  width: 40%;
   justify-content: space-around;
 }
 
@@ -345,7 +350,6 @@ body {
 
 .two_hr {
   width: 90%;
-  justify-content: space-between;
 }
 
 .hr_1 {
@@ -375,7 +379,6 @@ body {
 .grid-area {
   margin-top: 20px;
   width: 95%;
-  display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
@@ -387,7 +390,6 @@ body {
 }
 
 .grid-area2 {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   column-gap: 20px;
@@ -445,12 +447,11 @@ body {
 }
 
 .aside_links {
-  width: 90%;
+  width: 89%;
   margin-top: 20px;
 }
 
 .text {
-  justify-content: flex-end;
   font-size: 0.6rem;
 }
 
@@ -465,7 +466,6 @@ body {
 }
 
 .fot_heading {
-  justify-content: space-between;
   height: 6vh;
 }
 
@@ -485,7 +485,6 @@ body {
 
 .foot_grid {
   margin-top: 7px;
-  display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
 
@@ -522,14 +521,13 @@ body {
 
 .top_bot {
   margin: 10px 0;
-  border: none;
   height: 1px;
   color: lightgray;
   background-color: lightgray;
 }
 
 .fot_div {
-  width: 90%;
+  width: 92%;
   margin: 2px auto;
   justify-content: space-evenly;
 }
