@@ -8,12 +8,24 @@ body {
   min-height: 100%;
 }
 
+.w_20 {
+  width: 20%;
+}
+
 .w_100 {
   width: 100%;
 }
 
 .w_40 {
   width: 40%;
+}
+
+.w_70 {
+  width: 70%;
+}
+
+.mar_auto {
+  margin: 10px auto;
 }
 
 .h_100 {
@@ -253,31 +265,6 @@ body {
 
 .paragraph h4 {
   margin-top: 70px;
-}
-
-.bigPicture {
-  align-content: center;
-}
-
-.image_container {
-  width: 50%;
-  height: 80vh;
-}
-
-.text_picture {
-  width: 23%;
-  height: 80px;
-  font-size: 0.8em;
-}
-
-.inline {
-  column-gap: 15px;
-  bottom: 410px;
-}
-
-.inline2 {
-  column-gap: 15px;
-  bottom: 230px;
 }
 
 .big_pic_heading {
