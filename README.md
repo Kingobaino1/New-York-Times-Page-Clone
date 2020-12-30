@@ -15,7 +15,7 @@ tried to clone the webpage of New York times.
 
 ## Live Demo
 
-[Live Demo Link](https://kingobaino1.github.io/New-York-Times-Page-Clone/)
+[Live Demo Link](https://rawcdn.githack.com/Kingobaino1/New-York-Times-Page-Clone/584b085d8fb82b866d9966df5a74835a6f14b2c3/index.html)
 
 👤 **KingsLey**
 
